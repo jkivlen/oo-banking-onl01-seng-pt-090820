@@ -11,9 +11,8 @@ class BankAccount
     @status = "open"
   end
 
-  def deposit(money)
-    @balance << money
-    @balance
+  def deposit(deposit_amount)
+    @balance += deposit_amount
   end
 
 
