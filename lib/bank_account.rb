@@ -13,6 +13,7 @@ class BankAccount
 
   def deposit(money)
     @balance << money
+    @balance
   end
 
 
